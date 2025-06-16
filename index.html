@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p>MAJELIS PENDIDIKAN DASAR DAN MENENGAH DAERAH MUHAMMADIYAH BANYUWANGI</p>
+            <h1>SMK MUHAMMADIYAH 6 ROGOJAMPI</h1>
+            <P>Website : www.smkmuh6rgj.sch.id / Email : webmaster@smkmuh6rgj.sch.id</P>
+            <p>Jln. KH. Hasyim Asy;ari No. 38 Rogojampi Telp. /Fax : (0333) 631793 Banyuwangi 68462</p>
+        </div>
+
+        <div class="content">
+            <div class="form-section">
+                <h2>Data Pribadi</h2>
+                
+
+                <div class="photo-upload">
+                    <div class="photo-placeholder">
+                        <span>Foto Siswa</span>
+                        <img id="preview-photo" src="#" alt="Preview Foto">
+                    </div>
+                    <label for="photo-input" class="photo-upload-btn">Pilih Foto</label>
+                    <input type="file" id="photo-input" accept="image/*" style="display: none;">
+                </div>
+
+                <div class="form-group">
+                    <label for="full-name">Nama Lengkap <span class="colon">:</span></label>
+                    <input type="text" id="full-name" placeholder="Masukkan nama lengkap">
+                </div>
+
+                <div class="form-group">
+                    <label for="nickname">Nama Panggilan <span class="colon">:</span></label>
+                    <input type="text" id="nickname" placeholder="Masukkan nama panggilan">
+                </div>
+
+                <div class="form-group">
+                    <label for="birth-place">Tempat Lahir <span class="colon">:</span></label>
+                    <input type="text" id="birth-place" placeholder="Masukkan tempat lahir">
+                </div>
+
+                <div class="form-group">
+                    <label for="birth-date">Tanggal Lahir <span class="colon">:</span></label>
+                    <input type="date" id="birth-date">
+                </div>
+
+                <div class="form-group">
+                    <label for="class">Kelas <span class="colon">:</span></label>
+                    <input type="text" id="class" placeholder="Masukkan kelas">
+                </div>
+
+                <div class="form-group">
+                    <label for="student-id">No. Induk <span class="colon">:</span></label>
+                    <input type="text" id="student-id" placeholder="Masukkan nomor induk">
+                </div>
+
+                <div class="form-group">
+                    <label for="nisn">NISN <span class="colon">:</span></label>
+                    <input type="text" id="nisn" placeholder="Masukkan NISN">
+                </div>
+
+                <div class="form-group">
+                    <label for="religion">Agama <span class="colon">:</span></label>
+                    <select id="religion">
+                        <option value="">Pilih Agama</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="child-number">Anak Ke- <span class="colon">:</span></label>
+                    <input type="number" id="child-number" placeholder="Masukkan urutan anak">
+                </div>
+
+                <div class="form-group">
+                    <label for="siblings">Jumlah Saudara Kandung <span class="colon">:</span></label>
+                    <input type="number" id="siblings" placeholder="Masukkan jumlah saudara">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Data Orang Tua</h2>
+
+                <div class="form-group">
+                    <label for="father-name">Nama Ayah <span class="colon">:</span></label>
+                    <input type="text" id="father-name" placeholder="Masukkan nama ayah">
+                </div>
+
+                <div class="form-group">
+                    <label for="mother-name">Nama Ibu <span class="colon">:</span></label>
+                    <input type="text" id="mother-name" placeholder="Masukkan nama ibu">
+                </div>
+
+                <div class="form-group">
+                    <label for="father-job">Pekerjaan Ayah <span class="colon">:</span></label>
+                    <input type="text" id="father-job" placeholder="Masukkan pekerjaan ayah">
+                </div>
+
+                <div class="form-group">
+                    <label for="mother-job">Pekerjaan Ibu <span class="colon">:</span></label>
+                    <input type="text" id="mother-job" placeholder="Masukkan pekerjaan ibu">
+                </div>
+
+                <div class="form-group">
+                    <label for="father-education">Pendidikan Ayah <span class="colon">:</span></label>
+                    <select id="father-education">
+                        <option value="">Pilih Pendidikan</option>
+                        <option value="SD">SD</option>
+                        <option value="SMP">SMP</option>
+                        <option value="SMA/SMK">SMA/SMK</option>
+                        <option value="D1-D3">D1-D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                        <option value="S3">S3</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mother-education">Pendidikan Ibu <span class="colon">:</span></label>
+                    <select id="mother-education">
+                        <option value="">Pilih Pendidikan</option>
+                        <option value="SD">SD</option>
+                        <option value="SMP">SMP</option>
+                        <option value="SMA/SMK">SMA/SMK</option>
+                        <option value="D1-D3">D1-D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                        <option value="S3">S3</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Alamat Rumah <span class="colon">:</span></label>
+                    <div class="address-grid">
+                        <div class="address-row">
+                            <div class="address-col">
+                                <label for="kecamatan">Kecamatan :</label>
+                                <select id="kecamatan" onchange="updateDesaOptions()">
+                                    <option value="">Kecamatan</option>
+                                    <option value="Bangorejo">Bangorejo</option>
+                                    <option value="Banyuwangi">Banyuwangi</option>
+                                    <option value="Cluring">Cluring</option>
+                                    <option value="Gambiran">Gambiran</option>
+                                    <option value="Genteng">Genteng</option>
+                                    <option value="Giri">Giri</option>
+                                    <option value="Glagah">Glagah</option>
+                                    <option value="Glenmore">Glenmore</option>
+                                    <option value="Kalibaru">Kalibaru</option>
+                                    <option value="Kalipuro">kalipuro</option>
+                                    <option value="Kabat">Kabat</option>
+                                    <option value="Licin">Licin</option>
+                                    <option value="Muncar">Muncar</option>
+                                    <option value="Pesanggaran">Pesanggaran</option>
+                                    <option value="Rogojampi">Rogojampi</option>
+                                    <option value="Sempu">Sempu</option>
+                                    <option value="Siliragung">Siliragung</option>
+                                    <option value="Singojuruh">Singojuruh</option>
+                                    <option value="Songgon">Songgon</option>
+                                    <option value="Srono">Srono</option>
+                                    <option value="Tegaldlimo">Tegaldlimo</option>
+                                    <option value="Wongsorejo">Wongsorejo</option>
+                                </select>
+                            </div>
+                            <div class="address-col">
+                                <label for="desa">Desa :</label>
+                                <select id="desa" onchange="updateDusunOptions()">
+                                    <option value="">Desa</option>
+                                </select>
+                            </div>
+                            <div class="address-col">
+                                <label for="dusun">Dusun :</label>
+                                <select id="dusun">
+                                    <option value="">Dusun</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="address-row">
+                            <div class="address-col">
+                                <label for="rt-rw">RT/RW :</label>
+                                <div class="rt-rw-container">
+                                    <input type="text" id="rt" placeholder="RT">
+                                    <span>/</span>
+                                    <input type="text" id="rw" placeholder="RW">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">No. HP <span class="colon">:</span></label>
+                    <input type="tel" id="phone" placeholder="Masukkan nomor HP">
+                </div>
+
+                <div class="form-group">
+                    <label for="lokasi"><i class="fas fa-map-marked-alt"></i> Pin Lokasi
+                        Rumah</label>
+                    <div id="map"
+                        style="height: 300px; width: 100%; border: 1px solid #ddd; border-radius: 5px; margin-top: 10px;">
+                    </div>
+                    <input type="hidden" id="latitude" name="latitude">
+                    <input type="hidden" id="longitude" name="longitude">
+                    <small class="text-muted">Geser pin ke lokasi rumah Anda</small>
+                </div>
+
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+                <button id="generate-btn">
+                    <i>📋</i> Generate Biodata
+                </button>
+            </div>
+
+            <div class="result-section" id="result-section" style="display: none;">
+                <h1 align="center">BIODATA SISWA</h1>
+
+                <div class="result-content" id="result-content">
+                    <!-- Hasil akan ditampilkan di sini -->
+                </div>
+            </div>
+        </div>
+</div>
+    <script src="assets/js/js.js"></script>
+</body>
+
+</html>  
