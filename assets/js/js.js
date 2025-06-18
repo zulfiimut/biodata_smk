@@ -408,8 +408,8 @@ function setupGenerateButton() {
 
         // Tambahkan data pribadi jika ada
         addItemIfNotEmpty('Nama Lengkap', document.getElementById('full-name').value);
-        addItemIfNotEmpty('Nama Panggilan', document.getElementById('nickname').value);
-        if (birthInfo) addItemIfNotEmpty('Tempat/Tgl Lahir', birthInfo);
+        addItemIfNotEmpty('Panggilan', document.getElementById('nickname').value);
+        if (birthInfo) addItemIfNotEmpty('TTL', birthInfo);
         addItemIfNotEmpty('Kelas', document.getElementById('class').value);
         addItemIfNotEmpty('No. Induk', document.getElementById('student-id').value);
         addItemIfNotEmpty('NISN', document.getElementById('nisn').value);
